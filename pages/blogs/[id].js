@@ -51,7 +51,7 @@ const DetailBlog = () => {
             />
             <article className="max-w-2xl px-6 py-12 mx-auto space-y-16 dark:bg-gray-800 dark:text-gray-50">
               <div className="w-full mx-auto space-y-4">
-                <h1 className="text-5xl font-bold leading-none">
+                <h1 className="xl:text-5xl font-bold leading-none">
                   {data.title}
                 </h1>
                 <div className="flex flex-wrap space-x-2 text-sm ">

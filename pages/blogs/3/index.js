@@ -42,40 +42,59 @@ const Blog = () => {
 
         <div className="mb-20">
           <div className="mb-10">
-            <CategoryText title={"Trending Right Now"} />
-            <ul className="font-medium pt-2">
-              <li className="mb-3">
-                After Make-Up, Pimples Arise? Find out the solution, come on!
-              </li>
-              <li className="mb-3">
-                The Importance of Caring for the Skin Barrier
-              </li>
-              <li>5 Tips for Anti Fading Make Up</li>
-            </ul>
-          </div>
-          <div className="mb-10">
-            <CategoryText title={"Latest Post"} />
-            <ul className="font-medium pt-2">
-              <li className="mb-3">
-                After Make-Up, Pimples Arise? Find out the solution, come on!
-              </li>
-              <li className="mb-3">
-                The Importance of Caring for the Skin Barrier
-              </li>
-              <li>5 Tips for Anti Fading Make Up</li>
-            </ul>
+            <CategoryText title={"Discover more of what matters to you"} />
+            <div className="grid sm:grid-cols-3 md:grid-cols-4 gap-3 text-gray-700 text-sm pt-4">
+              <div className="cursor-pointer border border-[#093659] px-2 py-1 text-center">
+                Programming
+              </div>
+              <div className="cursor-pointer border border-[#093659] px-2 py-1 text-center">
+                Data Science
+              </div>
+              <div className="cursor-pointer border border-[#093659] px-2 py-1 text-center">
+                Technology
+              </div>
+              <div className="cursor-pointer border border-[#093659] px-2 py-1 text-center">
+                Self Improvement
+              </div>
+              <div className="cursor-pointer border border-[#093659] px-2 py-1 text-center">
+                Writing
+              </div>
+              <div className="cursor-pointer border border-[#093659] px-2 py-1 text-center">
+                Machine Learning
+              </div>
+              <div className="cursor-pointer border border-[#093659] px-2 py-1 text-center">
+                Dukun
+              </div>
+            </div>
           </div>
           <div>
-            <CategoryText title={"Categories"} />
-            <ul className="font-medium pt-2">
-              <li className="mb-3">
-                After Make-Up, Pimples Arise? Find out the solution, come on!
-              </li>
-              <li className="mb-3">
-                The Importance of Caring for the Skin Barrier
-              </li>
-              <li>5 Tips for Anti Fading Make Up</li>
-            </ul>
+            <CategoryText title={""} />
+            <div className="grid sm:grid-cols-3 md:grid-cols-5 gap-1 text-gray-600 pt-4">
+              <div className="cursor-pointer font-semibold  text-center">
+                Help
+              </div>
+              <div className="cursor-pointer font-semibold text-center">
+                Status
+              </div>
+              <div className="cursor-pointer font-semibold text-center">
+                Writers
+              </div>
+              <div className="cursor-pointer font-semibold text-center">
+                Blog
+              </div>
+              <div className="cursor-pointer font-semibold text-center">
+                Careers
+              </div>
+              <div className="cursor-pointer font-semibold text-center">
+                Privacy
+              </div>
+              <div className="cursor-pointer font-semibold text-center">
+                Terms
+              </div>
+              <div className="cursor-pointer font-semibold text-center">
+                About
+              </div>
+            </div>
           </div>
         </div>
       </div>

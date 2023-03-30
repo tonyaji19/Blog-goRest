@@ -102,7 +102,7 @@ function HeroContent({ data }) {
         </div>
 
         <div className="flex justify-center">
-          <div className="lg:w-[760px] relative">
+          <div className="lg:w-[760px] sm:w-[900px] md:w-[800px] relative">
             <div>
               <div>
                 <Image
@@ -119,11 +119,11 @@ function HeroContent({ data }) {
                 </div>
               </div>
 
-              <h1 className="font-bold text-[32px] p-2">{data[3].title}</h1>
+              <h1 className="font-bold md:text-[32px] p-2">{data[3].title}</h1>
               <div className="flex items-center justify-between text-gray-500 px-2">
-                <div className="flex items-center gap-1">
+                <div className="flex items-center gap-1 ">
                   <span className="">Mar 22 · 3 min read · </span>
-                  <span className="capitalize bg-gray-100 px-3 rounded-full hover:bg-gray-200 cursor-pointer">
+                  <span className="capitalize bg-gray-100 xl:px-3 rounded-full hover:bg-gray-200 cursor-pointer">
                     coding
                   </span>
                 </div>
@@ -172,7 +172,7 @@ function HeroContent({ data }) {
 
       {/* More article */}
       <CategoryText title={""} />
-      <div className="pt-4 mx-10 ">
+      <div className="pt-4 xl:mx-10 ">
         <CardArticle
           title={data[2].title}
           body={data[2].body}

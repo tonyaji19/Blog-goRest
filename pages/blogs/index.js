@@ -28,7 +28,7 @@ const Blog = () => {
         <div className="flex flex-1 flex-wrap">
           {data.map((item) => {
             return (
-              <div key={item.id} className="flex items-start">
+              <div key={item.id} className="flex  items-start justify-center ">
                 <CardArticle title={item.title} body={item.body} id={item.id} />
                 <Image
                   src={Wiki}
