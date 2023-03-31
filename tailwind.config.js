@@ -19,7 +19,13 @@ module.exports = {
       },
     },
 
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: ["Inter"],
+        quicksand: ["Quicksand"],
+        montserrat: ["Montserrat"],
+      },
+    },
   },
   plugins: [],
 };

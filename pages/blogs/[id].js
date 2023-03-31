@@ -40,7 +40,7 @@ const DetailBlog = () => {
     <>
       <Navbar />
 
-      <div className="lg:px-[100px] px-[60px]">
+      <div className="lg:px-[100px] px-[60px] font-quicksand">
         <div className="flex justify-center items-center">
           <div>
             <Image

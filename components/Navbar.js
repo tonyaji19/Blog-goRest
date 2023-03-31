@@ -45,14 +45,14 @@ const Navbar = () => {
         </div>
 
         <div>
-          <h2 className=" uppercase font-normal text-sm  sm:tracking-[4px] md:tracking-[6px]  text-white">
+          <h2 className=" font-quicksand uppercase font-normal text-sm  sm:tracking-[4px] md:tracking-[6px]  text-white">
             Local time &nbsp;
             {Hours % 12 > 0 ? Hours % 12 : Hours}:{Minutes}
             {Hours >= 12 ? " pm" : " am"}
           </h2>
         </div>
       </div>
-      <header className="sticky w-full h-full top-0 z-50 font-firacode mb-10">
+      <header className="sticky w-full h-full top-0 z-50 font-firacode mb-10 font-quicksand">
         <div className=" bg-gray-900 text-white text-center ">
           <div className="">
             <ul className="flex flex-row uppercase text-md font-normal text-gray-300 justify-center items-center ">

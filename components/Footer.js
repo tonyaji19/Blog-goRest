@@ -24,7 +24,7 @@ const Footer = () => {
   let date;
 
   return (
-    <div className="w-full h-[200px] lg:h-[20vh] bottom-0 left-0">
+    <div className="w-full h-[200px] lg:h-[20vh] bottom-0 left-0 font-quicksand">
       <div className="px-[30px] lg:px-[3vw] w-full h-full">
         <div className="border-t-2 border-neutral-200 flex flex-col md:flex-row gap-1 md:gap-10 text-center md:text-left w-full h-full items-center justify-between">
           <div className=" flex items-center h-full gap-10">

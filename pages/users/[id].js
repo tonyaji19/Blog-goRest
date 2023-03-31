@@ -74,7 +74,7 @@ const UserDetail = () => {
   return (
     <>
       <Navbar />
-      <div className="lg:px-[100px] px-[60px]">
+      <div className="lg:px-[100px] px-[60px] font-quicksand">
         <div className="my-20">
           <h1 className="font-bold mb-5 text-[#093659]">User Profile Data</h1>
           <table className="lg:w-full border-collapse bg-white text-left text-sm text-gray-500">

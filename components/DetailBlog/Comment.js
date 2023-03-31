@@ -3,7 +3,7 @@ import { BsPersonHeart } from "react-icons/bs";
 
 const Comment = ({ name, comment }) => {
   return (
-    <div className="flex items-center gap-6 my-5">
+    <div className="flex items-center gap-6 my-5 font-quicksand">
       <div>
         <BsPersonHeart className="" size={36} />
       </div>

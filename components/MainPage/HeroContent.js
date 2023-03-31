@@ -27,7 +27,7 @@ function HeroContent({ data }) {
     fetchRequest();
   }, []);
   return (
-    <div className="lg:px-[80px] px-[80px] mt-8">
+    <div className="lg:px-[80px] px-[80px] mt-8 font-quicksand">
       <div className="flex justify-between gap-x-[80px] flex-col md:flex-row text-justify">
         <div className="hidden md:block">
           <div>

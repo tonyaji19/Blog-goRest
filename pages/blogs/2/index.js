@@ -24,7 +24,7 @@ const Blog = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col lg:flex-row lg:gap-20 items-start lg:px-[100px] px-[40px]">
+      <div className="flex flex-col lg:flex-row lg:gap-20 items-start lg:px-[100px] px-[40px] font-quicksand">
         <div className="flex flex-1 flex-wrap">
           {data.map((item) => {
             return (

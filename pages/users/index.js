@@ -36,7 +36,7 @@ const Users = () => {
     <>
       <Navbar />
 
-      <div className="lg:px-[100px] px-[60px]">
+      <div className="lg:px-[100px] px-[60px] font-quicksand">
         <div className="my-20">
           <div>
             <form onSubmit={handleSubmit}>
